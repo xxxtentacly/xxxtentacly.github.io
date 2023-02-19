@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+	background-color: #E6E6FA	;
+	
+}
+
+
+h1 {
+    color: #0000FF;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom-style: dashed;
+}
+p { 
+	color: #9B9BFB;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+
+ul {
+	color: #9B9BFB;
+    font-size: 1em;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	
+}
+
+.occupation{
+    color: #8E8EAD	;
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    color: #00008B;
+}
+
+a:hover {
+    text-decoration: none;
+}
