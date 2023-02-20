@@ -5,6 +5,19 @@ body {
 }
 
 
+ @media (min-width: 768px) {
+      body {
+        font-size: 18px;
+      }
+    }
+
+    /* Стили для устройств с шириной экрана от 992px и больше */
+
+    @media (min-width: 992px) {
+      body {
+        font-size: 20px;
+      }
+    }
 h1 {
     color: #0000FF;
     font-size: 2em;
