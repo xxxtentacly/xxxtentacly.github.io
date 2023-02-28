@@ -43,6 +43,11 @@ ul {
 	
 }
 
+img {
+	  width: 500px;
+	height: 500px;
+}
+
 .occupation{
     color: #8E8EAD	;
     font-weight: bold;
