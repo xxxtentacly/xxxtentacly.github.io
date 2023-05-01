@@ -1,0 +1,9 @@
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    phone_num VARCHAR(20) NOT NULL
+);
+CREATE USER 'xxxtentacly'@'localhost:8080' IDENTIFIED BY 'sokoli2014';
+
+GRANT ALL PRIVILEGES ON `database.db`.* TO 'xxxtentacly'@'localhost:8080';
